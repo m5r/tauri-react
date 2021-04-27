@@ -1,9 +1,10 @@
 import type { FunctionComponent } from "react";
+import React from "react";
 
 const App: FunctionComponent = () => {
 	return (
 		<div>
-			Hello world
+			<h1 className="text-2xl">Hello world</h1>
 		</div>
 	);
 }
