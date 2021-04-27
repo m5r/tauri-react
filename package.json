@@ -1,0 +1,33 @@
+{
+	"name": "tauri-react",
+	"version": "1.0.0",
+	"scripts": {
+		"test": "web-test-runner \"src/**/__tests__/**/*.ts*\"",
+		"tauri": "tauri",
+		"dev": "snowpack dev",
+		"build": "snowpack build"
+	},
+	"author": "m5r",
+	"license": "MIT",
+	"dependencies": {
+		"@tauri-apps/cli": "^1.0.0-beta-rc.4",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"snowpack": "^3.3.5",
+		"typescript": "^4.2.4"
+	},
+	"devDependencies": {
+		"@snowpack/plugin-dotenv": "^2.1.0",
+		"@snowpack/plugin-react-refresh": "^2.4.2",
+		"@snowpack/plugin-typescript": "^1.2.1",
+		"@snowpack/web-test-runner-plugin": "^0.2.2",
+		"@testing-library/react": "^11.2.6",
+		"@types/chai": "^4.2.17",
+		"@types/mocha": "^8.2.2",
+		"@types/react": "^17.0.4",
+		"@types/react-dom": "^17.0.3",
+		"@types/snowpack-env": "^2.3.3",
+		"@web/test-runner": "^0.13.2",
+		"chai": "^4.3.4"
+	}
+}
