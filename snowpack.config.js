@@ -10,6 +10,13 @@ module.exports = {
 		"@snowpack/plugin-typescript",
 		"@snowpack/plugin-postcss",
 	],
+	routes: [
+		{
+			"match": "routes",
+			"src": ".*",
+			"dest": "/index.html",
+		},
+	],
 	optimize: {
 		bundle: true,
 		minify: true,
